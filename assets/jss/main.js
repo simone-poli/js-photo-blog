@@ -12,7 +12,7 @@
         console.log(data)
 
     data.forEach((image) => {
-        const {title, url} = image;
+        const {title, url} = image
 
 
         const markup = `
@@ -28,7 +28,7 @@
         </div>
         `
         
-    rowEl.insertAdjacentElement('beforeend', markup)
+    rowEl.insertAdjacentHTML('beforeend', markup)
     });
     })
     
