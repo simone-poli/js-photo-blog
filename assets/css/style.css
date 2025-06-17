@@ -1,0 +1,74 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Edu Tas Beginner', sans-serif;
+}
+
+header {
+    background-image: url(../img/wall.png);
+
+    
+    .header-container {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 5rem;
+    }
+}
+
+
+main {
+    background-image: url(../img/cork.png);
+    
+
+    .row-container{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .card{
+        background-color: white;
+        padding: 15px;
+    }
+
+    .col-3{
+        width: calc(100% / 12 * 3);
+        margin: 10px;
+    }
+
+    .image{
+        width: auto;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 992px){
+    main .col-md-2{
+        width: calc(100% / 12 * 5);
+    }
+}
+
+
+
+@media screen and (max-width: 772px){
+    main .col-sm-1{
+        width: 100%;
+    }
+}
