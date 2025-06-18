@@ -64,9 +64,6 @@ main {
         background-color: rgb(0,0,0,0.5);
     }
 
-    .modal:target{
-        display:block;
-    }
     
     .close-btn {
       color: black;
